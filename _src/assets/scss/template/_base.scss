@@ -1,29 +1,63 @@
-.img_hero {
-	background: url('../images/cover.jpg') center center no-repeat;
-	margin: 0;
-	padding: 0;
-	height: 100vh;
-	width: 100vw;
+*{
+	box-sizing: border-box;
 }
-#menu_on {
-	display: inline-block;
-	width: 44px;
-	height: 44px;
-	position: relative;
-	background-color: blue;
-	.line_icon {
-		width: 16px;
-		height: 14px;
-		position: absolute;
-		left: 14px;
-		bottom: 14px	;
+
+.wrapper{
+	border: 2px solid #fabada;
+	width: 100%;
+	height: 100%;
+	.img_hero {
+		background: url('../images/cover.jpg') center center no-repeat;
+		margin: 0;
+		padding: 0;
+		height: 100vh;
+		width: 100vw;
+		display: flex;
+		.menu_header {
+			width: 44px;
+			height: 44px;
+			position: fixed;
+			background-color: blue;
+			top: 0;
+			.line_icon {
+				width: 16px;
+				height: 14px;
+				position: absolute;
+				left: 14px;
+				top: 14px;
+			}
+		}
+	}	
+}
+.down_buttom {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 45px;
+	height: 45px;
+	border-radius: 22.5px;
+	position: absolute;
+	left: 50%;
+	bottom: 50px;
+	background-color: white;
+	.down_icon {
+		width: 20px;
+		height: 12px;
 	}
 }
-.title_first {
-    font-family: $font-text;
-	font-size: 42px;
-    color: white;
-    display: flex;
+.title_first{
+	width: 100%;
+	padding-top: 120px;
+	color: white;
+	display: flex;
     flex-direction: column;
-    align-items: center;
+    text-align: center;
+	font-size: $font_first;
+	font-weight: bold;
+	line-height: 1.31;
+	justify-content: center;
+	.text_subtitle {
+		font-size: 16px;
+		font-weight: normal;
+	}
 }
