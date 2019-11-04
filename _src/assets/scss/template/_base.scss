@@ -61,3 +61,45 @@
 		font-weight: normal;
 	}
 }
+.subtitle_aside {
+	margin-top: 30px;
+	margin-left: 15px;
+	height: 30px;
+	.subtitle_aside_text {
+		color: #8ccbea;
+		font-family: $font-text;
+		font-size: 14px;
+		line-height: 2.14;
+	}
+}
+.detail_aside {
+	margin-left: 15px;
+	width: 290px;
+	.detail_title {
+		font-size: 24px;
+		font-weight: bold;
+		line-height: 1.25;
+		margin-bottom: 0;
+	}
+}
+.detail_text {
+	margin-top: 15px;
+	font-size: 18px;
+	line-height: 1.67;
+	color: #523005;
+}
+.buttom_aside {
+	margin-left: 15px;
+	width: 76px;
+	height: 45px;
+	border-radius: 22.5px;
+	border: 2px solid orangered;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 40px;
+	.link_aside {
+		text-decoration: none;
+		color: orangered;
+	}
+}
