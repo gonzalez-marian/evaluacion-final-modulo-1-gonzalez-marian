@@ -167,3 +167,23 @@
 		transition: color ease 2s;
 	}
 }
+.container_footer {
+	background-color: darkblue;
+}
+.list_footer {
+	margin-top: 0;
+	list-style: none;
+	color: white;
+	font-size: 16px;
+	line-height: 1.88;
+	text-align: center;
+}
+.text_footer {
+	color: white;
+	text-align: center;
+	font-size: 14px;
+	line-height: 2.14;
+	.text_style {
+		color: orangered;
+	}
+}
