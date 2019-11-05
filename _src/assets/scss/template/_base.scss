@@ -177,6 +177,13 @@
 /*************** termina tercer modulo ************/
 
 /*************** cuarto modulo ********************/
+
+.container_footer {
+	background-color: $color-footer;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
 .buttom_footer {
 	display: flex;
 	align-items: center;
@@ -185,21 +192,19 @@
 	height: 45px;
 	border-radius: 22.5px;
 	background-color: $color-general;
-	transform: translateX(140px) translateY(-20px);
+	position: absolute;
+	left: 50%;
+	top: -20px;
 	.footer_icon {
 		width: 20px;
 		height: 24px;
 	}
 }
-.container_footer {
-	background-color: $color-footer;
-	display: flex;
-	flex-direction: column;
-}
 .content_list_footer {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	margin-top: 40px;
 }
 .list_footer_1, .list_footer_2{
 	margin-top: 0;
@@ -254,6 +259,7 @@
 	}
 	.buttom_aside {
 		margin-left: 50px;
+		width: 91px;
 	}
 	.container_main {
 		display: grid;
@@ -301,10 +307,9 @@
 		grid-column: 2/3;
 		text-align: center;
 		margin-left: 30px;
+		width: 210px;
 	}
-	.buttom_footer {
-		transform: translateX(355px) translateY(-20px);
-	}
+
 	.content_list_footer {
 		display: flex;
 		flex-direction: row;
@@ -322,4 +327,25 @@
 		margin-top: 33px;
 	}
 }
-
+/***************** version ordenador**************/
+@media all and (min-width:1200px) {
+	.title_first{
+		padding-top: 30px;
+		font-size: 6.25rem;
+	}
+	.subtitle_aside_text {
+		font-size: 1rem;
+	}
+	.detail_aside{ 
+		.detail_title {
+		font-size: 2rem;
+		}
+	}
+	.buttom_aside {
+		width: 160px;
+	}
+	.buttom_main {
+		width: 255px;
+		margin-left: 69px;
+	}
+}
