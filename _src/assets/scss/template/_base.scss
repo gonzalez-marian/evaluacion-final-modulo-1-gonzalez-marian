@@ -256,13 +256,18 @@
 		margin-right: 39px;
 	}
 	.title_first{
-		padding-top: 235px;
+		padding-top: 200px;
 		font-size: 5rem;
-		line-height: 1.33;
+		line-height: 1.1;
 	}
 	.text_subtitle {
 		font-size: 1.5rem;
 		text-align: center;
+	}
+	.buttom_header {
+		.down_buttom {
+			bottom: 15px;
+		}
 	}
 	.box-aside {
 		margin-left: 39px;
